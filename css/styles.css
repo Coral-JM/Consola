@@ -5,7 +5,7 @@
     --light-purple: #6a559c;
     --purple: #564092;
     --dark-purple: #3e148b;
-    --dark-purple-shadow: #49197b;
+    --dark-purple-shadow: #482073;
     --dark-purple-shadow-buttons: #3a1363;
     --screen: #838F6F;
     --darkGray: #444751;
@@ -95,7 +95,8 @@ body {
     display: flex;
     height: 5em;
     width: 1.6em;
-    background: var(--darkGray2);
+    background: var(--darkGray);
+    border: 0.2em solid black;
     border-radius: 0.5em;
     margin-top: 1em;
     margin-left: 2.6em;
@@ -104,10 +105,19 @@ body {
     display: flex;
     height: 1.6em;
     width: 5em;
-    background: var(--darkGray2);
+    background: var(--darkGray);
+    border: 0.2em solid black;
     border-radius: 0.5em;
     margin-top: -3.3em;
     margin-left: 0.9em;
+}
+.square {
+    display: flex;
+    height: 4em;
+    width: 1.29em;
+    background: var(--darkGray);
+    margin-left: 1.7em;
+    margin-top: -1.5em;
 }
 .buttons {
     position: absolute;
@@ -122,22 +132,24 @@ body {
 }
 .buttona {
     display: flex;
-    height: 2em;
-    width: 2em;
-    background: var(--darkGray2);
+    height: 2.2em;
+    width: 2.2em;
+    background: var(--darkGray);
+    border: 0.2em solid black;
     border-radius: 50%;
-    margin-top: 0.5em;
+    margin-top: 0.4em;
     margin-left: 0.6em;
 }
 
 .buttonb {
     display: flex;
-    height: 2em;
-    width: 2em;
-    background: var(--darkGray2);
+    height: 2.2em;
+    width: 2.2em;
+    background: var(--darkGray);
+    border: 0.2em solid black;
     border-radius: 50%;
     margin-left: 3.5em;
-    margin-top: -2em;
+    margin-top: -2.2em;
 }
 .extra1 {
     display: flex;
