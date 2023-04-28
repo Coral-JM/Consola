@@ -19,3 +19,16 @@ body {
     margin-top: 10em;
     margin-bottom: 10em;
 }
+.gameboy {
+    display: flex;
+    width: 20em;
+    height: 33em;
+    justify-content: center;
+    background: var(--purple);
+    border-radius: 0.75em 0.75em 3.12em 0.75em;
+    border: 0.40em solid black;
+}
+.top {
+    display: flex;
+}
+.
