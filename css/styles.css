@@ -27,6 +27,7 @@ body {
     background: var(--purple);
     border-radius: 0.75em 0.75em 3.12em 0.75em;
     border: 0.40em solid black;
+    box-shadow: 1.8em 1.25em 0 rgba(0, 0, 0, 0.30);
 }
 .stripe1{
     display: flex;
@@ -51,3 +52,33 @@ body {
     margin-top: -2em;
     margin-left: 15em;
 }
+.borderscreen{
+    display: flex;
+    height: 13em;
+    width: 15em;
+    background: var(--darkGray);
+    border: 0.3em solid black;
+    margin-top: 3em;
+    margin-left: -17.3em;
+    border-radius: 1em;
+}
+.screen {
+    display: flex;
+    height: 10em;
+    width: 10em;
+    background: var(--screen);
+    border-radius: 0.2em;
+    border: 0.3em solid black;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.powerlight {
+    display: flex;
+    height: 0.4em;
+    width: 0.4em;
+    border-radius: 50%;
+    background: var(--red);
+    margin-left: -11.2em;
+    margin-top: 5em;
+}
+
