@@ -28,7 +28,26 @@ body {
     border-radius: 0.75em 0.75em 3.12em 0.75em;
     border: 0.40em solid black;
 }
-.top {
+.stripe1{
     display: flex;
+    height: 0.3em;
+    width: 19.6em;
+    background: black;
+    margin-top: 2em;
 }
-.
+.stripevertical1 {
+    display: flex;
+    height: 2em;
+    width: 0.3em;
+    background: black;
+    margin-left: 2em;
+    margin-top: -2em;
+}
+.stripevertical2 {
+    display: flex;
+    height: 2em;
+    width: 0.3em;
+    background: black;
+    margin-top: -2em;
+    margin-left: 15em;
+}
