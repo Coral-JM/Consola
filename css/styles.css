@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --light-purple: #6a559c;
+    --purple: #564092;
+    --dark-purple: #3e148b;
+    --dark-purple-shadow: #13025f;
+    --screen: #838F6F;
+    --darkGray: #444751;
+    --darkGray2: #18181a;
+    --red: #FF2020;
+}
+body {
+    background: #fae480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
