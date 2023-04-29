@@ -76,7 +76,7 @@ body {
     border: 0.3em solid black;
     margin-top: 3.2em;
     margin-left: -17.3em;
-    border-radius: 1em;
+    border-radius: 1em 1em 3em 1em;
 }
 .screen {
     display: flex;
@@ -199,6 +199,7 @@ body {
     width: 0.4em;
     background: var(--darkGray2);
     margin-left: -1.5em;
+    border-radius: 2em 2em 2em 2em;
 }
 
 .lightshadow {
@@ -217,7 +218,7 @@ body {
     background: var(--dark-purple);
     border-radius: 3em 1em 1em 1em;
     margin-top: -32em;
-    margin-left: -0.975em;
+    margin-left: -0.95em;
     z-index: 1;
 }
 .cornershadow {
@@ -237,3 +238,4 @@ body {
     margin-top: 2.26em;
     margin-left: -19em;
 }
+
