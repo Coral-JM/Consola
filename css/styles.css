@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 :root {
-    --light-purple: #6a559c;
-    --purple: #564092;
-    --dark-purple: #3e148b;
-    --dark-purple-shadow: #482073;
+    --light-purple: rgb(134, 91, 172);
+    --purple: rgb(114,65,157);
+    --dark-purple: rgb(89, 27, 144);
+    --dark-purple-shadow: #4d2a72;
     --dark-purple-shadow-buttons: #3a1363;
     --screen: #838F6F;
     --darkGray: #444751;
@@ -13,7 +13,7 @@
     --red: #FF2020;
 }
 body {
-    background: #fae480;
+    background: rgb(250, 220, 51);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,7 +270,7 @@ body {
     background: var(--dark-purple);
     border-radius: 3em 1em 1em 1em;
     margin-top: -32em;
-    margin-left: -0.8em;
+    margin-left: -0.7em;
     z-index: 1;
 }
 .cornershadow {
@@ -278,7 +278,7 @@ body {
     border-bottom: 5.3125em solid var(--dark-purple);
     border-left: 5.3125em solid transparent;
     border-radius: 1em 1em 2.7em 1em;
-    margin-top: 26.9em;
+    margin-top: 26.96em;
     margin-left: 13.9em;
 }
 .bottomshadow {
@@ -287,7 +287,7 @@ body {
     width: 15em;
     background: var(--dark-purple);
     border-radius: 3em 3em 1em 0.5em;
-    margin-top: 2.26em;
+    margin-top: 2.3em;
     margin-left: -18.9em;
 }
 
