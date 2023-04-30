@@ -30,8 +30,8 @@ Puedes descargar el repositorio o visualizar el proyecto haciendo click aquí: [
 ---
 ### Construcción
 
-La consola está dividida en tres partes: *top, middle y bottom*. 
-En el *top* situamos las líneas de diseño de la parte superior. En la parte *middle* podemos encontrar todo lo que repercute a la pantalla de la Game Boy y los comandos (joystick y botones). Y en el *bottom* es donde se encuentran los detalles finales: las sombras y el *speaker*.
+La consola está dividida en varias partes. 
+En el *top* situamos las líneas de detalle de la parte superior. Seguido de la introducción de sombreado en la parte *shadows*. En la parte *middle* podemos encontrar todo lo que repercute a la pantalla de la Game Boy. La parte inferior se divide en dos partes: *comands* (joystick y botones A y B) y *bottom* donde se encuentran los detalles finales: los botones de *select y start* y el *speaker*.
 Está construída únicamente con *divs* desde el HTML y aplicando display flex en el CSS.
 Por último, tiene las interacciones de los botones aplicadas desde JavaScript. 
 
