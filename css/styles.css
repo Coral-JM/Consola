@@ -110,7 +110,7 @@ body {
 }
 .on:hover {
     cursor: pointer;
-    transition: 5seg;
+    transition: 1s;
     margin-top: 4.5em;
 }
 .joystick {
@@ -174,7 +174,11 @@ body {
     cursor: pointer;
     box-shadow: inset 0.1em 0.1em 0.1em 0.05em var(--darkGray2);
 }
-
+.onButtonA {
+    background-image: url(../gifs/battlepika.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .buttonb {
     display: flex;
     height: 2.2em;
@@ -190,7 +194,7 @@ body {
     box-shadow: inset 0.1em 0.1em 0.1em 0.05em var(--darkGray2);
 }
 
-.extra1 {
+.selectbutton {
     display: flex;
     height: 2em;
     width: 0.8em;
@@ -200,12 +204,16 @@ body {
     margin-left: -11em;
     transform: rotate(40deg);
 }
-.extra1:hover {
+.selectbutton:hover {
     cursor: pointer;
     box-shadow: inset 0.1em 0.1em 0.1em 0.05em var(--darkGray2);
 }
-
-.extra2 {
+.selectOn {
+    background-image: url(../gifs/pika.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.startbutton {
     display: flex;
     height: 2em;
     width: 0.8em;
@@ -215,11 +223,10 @@ body {
     margin-left: -9em;
     transform: rotate(40deg);
 }
-.extra2:hover {
+.startbutton:hover {
     cursor: pointer;
     box-shadow: inset 0.1em 0.1em 0.1em 0.01em var(--darkGray2);
 }
-
 .stripes {
     display: flex;
     flex-direction: row;
